@@ -10,11 +10,13 @@ public class PlayerInput : MonoBehaviour
     [SerializeField]private Joystick _joystick;
     private void Update()
     {
+#if PLATFORM_STANDALONE
         Horizontal = Input.GetAxis("Horizontal");
         Vertical = Input.GetAxis("Vertical");
         Brake = Input.GetButton("Jump");
 //
 //
+#elif PLATFORM_ANDROID || PLATDORM_IOS
         if (_joystick != null)
         {
             Horizontal = _joystick.Horizontal;
@@ -22,6 +24,7 @@ public class PlayerInput : MonoBehaviour
         }
 //
 //-
+#endif 
         if (invertHorizontal)
         {
             Horizontal *= -1;
