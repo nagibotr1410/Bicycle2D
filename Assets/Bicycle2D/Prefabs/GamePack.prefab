@@ -61,7 +61,7 @@ Transform:
   m_GameObject: {fileID: 4264792529881692971}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.14996338, y: -0.18727112, z: -9.959713}
+  m_LocalPosition: {x: 5.869934, y: -0.18727112, z: -9.959713}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -356,6 +356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RearWheel
       objectReference: {fileID: 0}
+    - target: {fileID: -3888481672020999207, guid: 0837c0e495a5c8548ad8d0eb40a74287, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 0837c0e495a5c8548ad8d0eb40a74287, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.857502
@@ -495,6 +499,10 @@ PrefabInstance:
     - target: {fileID: -3888481672020999207, guid: 5e4529251f96acf49a2f7ef9c22212c4, type: 3}
       propertyPath: m_Name
       value: Ladouny
+      objectReference: {fileID: 0}
+    - target: {fileID: -3888481672020999207, guid: 5e4529251f96acf49a2f7ef9c22212c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 5e4529251f96acf49a2f7ef9c22212c4, type: 3}
       propertyPath: m_LocalScale.y
@@ -679,13 +687,13 @@ FixedJoint2D:
   m_Enabled: 1
   serializedVersion: 4
   m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 303447418527422206}
+  m_ConnectedRigidBody: {fileID: 543169093837318439}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 1.0979574, y: -0.49440014}
+  m_ConnectedAnchor: {x: 0.5114746, y: 1.1428223}
   m_DampingRatio: 0.5
   m_Frequency: 3
 --- !u!4 &7399067528851442028 stripped
@@ -704,6 +712,10 @@ PrefabInstance:
     - target: {fileID: -3888481672020999207, guid: 0837c0e495a5c8548ad8d0eb40a74287, type: 3}
       propertyPath: m_Name
       value: FrontWheel
+      objectReference: {fileID: 0}
+    - target: {fileID: -3888481672020999207, guid: 0837c0e495a5c8548ad8d0eb40a74287, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 0837c0e495a5c8548ad8d0eb40a74287, type: 3}
       propertyPath: m_LocalPosition.x
@@ -844,6 +856,10 @@ PrefabInstance:
     - target: {fileID: -3888481672020999207, guid: f02ce9a3386310a4eb55b41238e659c0, type: 3}
       propertyPath: m_Name
       value: Pleycho
+      objectReference: {fileID: 0}
+    - target: {fileID: -3888481672020999207, guid: f02ce9a3386310a4eb55b41238e659c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: f02ce9a3386310a4eb55b41238e659c0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1055,6 +1071,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pendulun
       objectReference: {fileID: 0}
+    - target: {fileID: -3888481672020999207, guid: 02bf158af650c2746a23ae750179fc79, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 02bf158af650c2746a23ae750179fc79, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2398391
@@ -1244,6 +1264,10 @@ PrefabInstance:
     - target: {fileID: -3888481672020999207, guid: bb1296411085a5d4da280b61a323fdf5, type: 3}
       propertyPath: m_Name
       value: Hand
+      objectReference: {fileID: 0}
+    - target: {fileID: -3888481672020999207, guid: bb1296411085a5d4da280b61a323fdf5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: bb1296411085a5d4da280b61a323fdf5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1450,6 +1474,10 @@ PrefabInstance:
     - target: {fileID: -3888481672020999207, guid: 4b0d8702ba46ce2498b36af40400c963, type: 3}
       propertyPath: m_Name
       value: Biky
+      objectReference: {fileID: 0}
+    - target: {fileID: -3888481672020999207, guid: 4b0d8702ba46ce2498b36af40400c963, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 4b0d8702ba46ce2498b36af40400c963, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1675,6 +1703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gorlo
       objectReference: {fileID: 0}
+    - target: {fileID: -3888481672020999207, guid: 945b310b376d0cd4c9bbbfbc3a63c503, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 945b310b376d0cd4c9bbbfbc3a63c503, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.543
@@ -1884,6 +1916,10 @@ PrefabInstance:
     - target: {fileID: -3888481672020999207, guid: 3f58186c949c40e4dbc564260c267bdc, type: 3}
       propertyPath: m_Name
       value: Lyshska
+      objectReference: {fileID: 0}
+    - target: {fileID: -3888481672020999207, guid: 3f58186c949c40e4dbc564260c267bdc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 3f58186c949c40e4dbc564260c267bdc, type: 3}
       propertyPath: m_LocalScale.x
@@ -2101,6 +2137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coleno
       objectReference: {fileID: 0}
+    - target: {fileID: -3888481672020999207, guid: 358b1ea7bd5e3f04cb4401b1977b6b86, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 358b1ea7bd5e3f04cb4401b1977b6b86, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7650012
@@ -2293,13 +2333,13 @@ FixedJoint2D:
   m_Enabled: 1
   serializedVersion: 4
   m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 22015234801151470}
+  m_ConnectedRigidBody: {fileID: 543169093837318439}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 1.0633613, y: -0.31000718}
+  m_ConnectedAnchor: {x: -0.15124512, y: 0.36968994}
   m_DampingRatio: 0.5
   m_Frequency: 3
 --- !u!1001 &7557422069842189564
@@ -2317,6 +2357,10 @@ PrefabInstance:
     - target: {fileID: -3888481672020999207, guid: af4ac2010d7fdf54b955fdbeedde6c14, type: 3}
       propertyPath: m_Name
       value: Body
+      objectReference: {fileID: 0}
+    - target: {fileID: -3888481672020999207, guid: af4ac2010d7fdf54b955fdbeedde6c14, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: af4ac2010d7fdf54b955fdbeedde6c14, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2487,6 +2531,10 @@ PrefabInstance:
     - target: {fileID: -3888481672020999207, guid: b376c4f26c4abf544bc5579b02c7878b, type: 3}
       propertyPath: m_Name
       value: Helmet
+      objectReference: {fileID: 0}
+    - target: {fileID: -3888481672020999207, guid: b376c4f26c4abf544bc5579b02c7878b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: b376c4f26c4abf544bc5579b02c7878b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2700,6 +2748,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Foot
       objectReference: {fileID: 0}
+    - target: {fileID: -3888481672020999207, guid: 0018345cb3e8f1647906b712f08c1d0e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 0018345cb3e8f1647906b712f08c1d0e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.831
@@ -2882,12 +2934,12 @@ FixedJoint2D:
   m_Enabled: 1
   serializedVersion: 4
   m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 3898660563253647467}
+  m_ConnectedRigidBody: {fileID: 8713345004416591009}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.83103675, y: -1.09}
+  m_ConnectedAnchor: {x: -0.27233088, y: 0.6331738}
   m_DampingRatio: 0.5
   m_Frequency: 3
