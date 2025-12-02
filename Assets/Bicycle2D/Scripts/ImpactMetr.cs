@@ -16,7 +16,7 @@ public class ImpactMetr : MonoBehaviour
       else
         {
             Debug.Log("вы слабо ударились");
-            OnStrongBlow.Invoke();
+            OnEmptyBlow.Invoke();
         }     
     }
 }
