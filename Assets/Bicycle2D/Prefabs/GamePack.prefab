@@ -1658,8 +1658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b07ff6658dabf5f4db0b8a77d680540d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acceleration: 2000
-  rotationPower: 20
+  acceleration: 1000
+  rotationPower: 15
   rearWheel: {fileID: 147279876474549123}
   frontWheel: {fileID: 2750286726764557293}
 --- !u!235 &2750286726764557293
